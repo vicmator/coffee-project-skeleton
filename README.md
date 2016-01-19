@@ -33,7 +33,8 @@
 │   ├── public/          # Non compiled frontend files.
 │   │   ├── asset/       # Non compiled frontend code.
 │   │   │   ├── js/      # Non compiled frontend JavaScript code.
-│   │   │   └── css/     # Non compiled stylesheets files folder.  This folder should exist only using a css preprocessor.
+│   │   │   └── css/     # Non compiled stylesheets files folder.  
+│   │   │                  This folder should exist only using a css preprocessor.
 │   │   └── lib/         # Third party frameworks and libs only for frontend development.
 │   └── test/            # Non compiled testing scripts both backend and frontend.
 │       │                  Use the same app/ folder structure
