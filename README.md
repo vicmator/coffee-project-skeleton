@@ -35,7 +35,7 @@
 │   │   │   ├── js/                     # Non compiled frontend JavaScript files.
 │   │   │   └── (less|styl|{sa,c}ss)/   # Non compiled stylesheets files output folder.
 │   │   └── lib/                        # Third party frameworks and libs only for development.
-│   ├── test/                           # Non compiled testing scripts both backend and frontend.
+│   └── test/                           # Non compiled testing scripts both backend and frontend.
 │       │                                 Use the same app/ folder structure
 │       ├── controller/        
 │       ├── lib/               
@@ -43,7 +43,7 @@
 │       ├── middleware/
 │       ├── model/
 │       └── public/
-│           ├── asset/
+│           └── asset/
 │               └── js/
 └── test/                               # All compiled backend and frontend testing scripts.
     │                                     Use the same app/ folder structure
