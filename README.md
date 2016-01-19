@@ -1,5 +1,6 @@
+## coffee-project-skeleton
 
-> Folder-structure for new multi page projects using Node.js and CoffeeScript as main language for coding both frontend and backend
+### Folder-structure for new multi page projects using Node.js and CoffeeScript as main language for coding both frontend and backend
 ```
 .                        # Project root directory.
 ├── app/                 # All compiled App related code, backend and frontend.
