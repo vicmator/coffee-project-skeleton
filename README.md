@@ -17,7 +17,7 @@
 │   │   │   ├── css/                    # Stylesheets files, may have themes/ subdirectory.
 │   │   │   └── img/                    # Static images files.
 │   │   └── lib/                        # Frontend third party libraries.
-│   └── view/                           # (compiled if using template engines) template views.
+│   └── view/                           # View templates using template engine.
 │                                         It may have partials/ subdirectory
 ├── config/                             # Contains all application settings and configurations files.
 ├── doc/                                # Contains documentation, either generated or directly authored.
@@ -36,16 +36,15 @@
 │   │   │   └── (less|styl|{sa,c}ss)/   # Non compiled stylesheets files output folder.
 │   │   └── lib/                        # Third party frameworks and libs only for development.
 │   ├── test/                           # Non compiled testing scripts both backend and frontend.
-│   │   │                                 Use the same app/ folder structure
-│   │   ├── controller/        
-│   │   ├── lib/               
-│   │   │   └── helper/        
-│   │   ├── middleware/
-│   │   ├── model/
-│   │   └── public/
-│   │       ├── asset/
-│   │           └── js/
-│   └── view/                           # Non compiled views using a template engine.
+│       │                                 Use the same app/ folder structure
+│       ├── controller/        
+│       ├── lib/               
+│       │   └── helper/        
+│       ├── middleware/
+│       ├── model/
+│       └── public/
+│           ├── asset/
+│               └── js/
 └── test/                               # All compiled backend and frontend testing scripts.
     │                                     Use the same app/ folder structure
     ├── controller/        
